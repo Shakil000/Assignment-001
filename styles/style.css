@@ -84,3 +84,109 @@ cursor: pointer;
     margin-top: -20px;
 }
 /* Why web development section design end */
+
+/* Coding challenge start design  */
+
+.main-section-two{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 230px 20px 230px;
+    margin-top: 100px;
+}
+.main-section-two-text h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 570px;
+}
+.main-section-two-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 370px;
+}
+.main-section-two-text button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 171px;
+    height: 47px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Coding challenge end design  */
+
+/* main section three design start */
+
+.main-section-three{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 210px 20px 210px;
+}
+.main-section-three-text h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 370px;
+}
+.main-section-three-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 370px;
+}
+.main-section-three-text  button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 171px;
+    height: 47px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 370px;
+}
+/* main section three design end */
+
+/* main-section-four design start */
+
+.main-section-four{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 230px 20px 230px;
+    margin-top: 100px;
+}
+.main-section-four h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 500px;
+}
+.main-section-four p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 370px;
+}
+.main-section-four button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 171px;
+    height: 47px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* main-section-four design end */
