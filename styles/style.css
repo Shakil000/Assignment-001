@@ -198,3 +198,27 @@ margin-left: 220px;
 margin-top: 50px;
 }
 /* My Inspiration section design end */
+
+/* my-current-target-head design start*/
+
+.my-current-target-head{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 230px 70px 230px;
+    gap: 20px;
+}
+.my-current-target{
+    padding: 40px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 76, 30, 0.05);
+}
+.two{
+    padding: 40px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(0, 76, 232, 0.05);
+}
+.three{
+    padding: 40px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 223, 0, 0.05)
+}
