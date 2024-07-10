@@ -68,6 +68,15 @@ cursor: pointer;
 /* header section design end */
 
 /* Why web development section design start */
+
+.web-development-section{
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 90px;
+    margin-left: 210px;
+    margin-right: 210px;
+}
 .second-section-main-text h3{
     text-align: center;
     color: rgb(13, 19, 33);
@@ -80,10 +89,9 @@ cursor: pointer;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    margin-left: 320px;
-    width: 820px;
+    width: 600px;
     text-align: center;
-    margin-top: -20px;
+    margin-left: 250px;
 }
 /* Why web development section design end */
 
@@ -91,23 +99,27 @@ cursor: pointer;
 
 .main-section-two{
     display: flex;
-    justify-content: space-around;
-    margin: 10px 230px 20px 230px;
-    margin-top: 100px;
+    justify-content: space-between;
+    margin: 10px 90px 20px 130px;
+    margin-top: 50px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);;
+    padding: 50px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .main-section-two-text h4{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
-    margin-right: 570px;
 }
 .main-section-two-text p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    margin-right: 370px;
+    margin-right: 70px;
 }
 .main-section-two-text button{
     box-sizing: border-box;
@@ -126,22 +138,28 @@ cursor: pointer;
 
 .main-section-three{
     display: flex;
-    justify-content: space-around;
-    margin: 100px 210px 20px 210px;
+    justify-content: space-between;
+    margin: 10px 90px 20px 130px;
+    margin-top: 30px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);;
+    padding: 50px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .main-section-three-text h4{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
-    margin-left: 370px;
+    margin-left: 150px;
 }
 .main-section-three-text p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    margin-left: 370px;
+    margin-left: 150px;
 }
 .main-section-three-text  button{
     box-sizing: border-box;
@@ -153,7 +171,7 @@ cursor: pointer;
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    margin-left: 370px;
+    margin-left: 150px;
 }
 /* main section three design end */
 
@@ -161,23 +179,28 @@ cursor: pointer;
 
 .main-section-four{
     display: flex;
-    justify-content: space-around;
-    margin: 10px 230px 20px 230px;
-    margin-top: 100px;
+    justify-content: space-between;
+    margin: 10px 90px 20px 130px;
+    margin-top: 30px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);;
+    padding: 50px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .main-section-four h4{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
-    margin-right: 500px;
+    margin-right: 50px;
 }
 .main-section-four p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    margin-right: 370px;
+    margin-right: 150px;
 }
 .main-section-four button{
     box-sizing: border-box;
@@ -195,6 +218,22 @@ cursor: pointer;
 
 /* My Inspiration section design start */
 
+.myinspiration-section-main-text h3{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.myinspiration-section-main-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+    text-align: center;
+    margin-left: 450px;
+}
 .my-video{
 margin-left: 220px;
 margin-top: 50px;
@@ -203,6 +242,22 @@ margin-top: 50px;
 
 /* my-current-target-head design start*/
 
+.current-target-main-text h3{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.current-target-main-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+    text-align: center;
+    margin-left: 440px;
+}
 .my-current-target-head{
     display: flex;
     justify-content: space-around;
@@ -233,6 +288,22 @@ margin-top: 50px;
 
 /* My next target design start */
 
+.next-target-main-text h3{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.next-target-main-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+    text-align: center;
+    margin-left: 440px;
+}
 .next-target-head{
     display: flex;
     margin: 70px 230px 70px 230px;
