@@ -253,15 +253,15 @@ margin-top: 50px;
 
 /* My contact form design start */
 .my-contact{
-    background-image: url("../assets/handshake.jpg");
-    /* display: flex; */
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -20.5%,rgba(16, 16, 16, 0) 100%),url("../assets/handshake.jpg");
     background-repeat: no-repeat;
-    margin: 70px 230px 70px 230px;
+    margin: 90px 230px 90px 230px;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     width: 1075px;
-    height: 313px;
+    height: 300px;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 .my-contact h1{
     text-align: center;
@@ -304,4 +304,23 @@ margin-top: 50px;
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+    border: none;
 }
+/* Footer Design Start*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 200px 15px 0px;
+    background: rgba(13, 19, 33, 0.03);
+    width: 100%;
+    height: 100px;
+}
+.footer-text{
+    margin-top: 23px;
+    margin-left: 235px;
+}
+.footer-image{
+    margin-top: 35px;
+    margin-right: 228px;
+}
+/* Footer Design End*/
